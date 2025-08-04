@@ -26,19 +26,19 @@ Experience the full functionality of UK NutriHealth AI with our interactive demo
 ## 📱 Demo Screenshots
 
 ### Landing Page & Introduction
-![Landing Page](demo/intro.png)
+![Landing Page](demo/1.png)
 *Professional NHS-style interface with clear value proposition*
 
 ### Assessment Results Dashboard
-![Results Dashboard](demo/result.png)
+![Results Dashboard](demo/2.png)
 *Comprehensive risk analysis with traffic light system*
 
 ### Step-by-Step Assessment Flow
-![Assessment Step 1](demo/step1.png) | ![Assessment Step 2](demo/step2.png)
+![Assessment Step 1](demo/3.png) | ![Assessment Step 2](demo/4.png)
 :-------------------------:|:-------------------------:
 *Demographics Collection* | *Lifestyle Analysis*
 
-![Assessment Step 3](demo/step3.png) | ![Assessment Step 4](demo/step4.png)
+![Assessment Step 3](demo/5.png) | ![Assessment Step 4](demo/6.png)
 :-------------------------:|:-------------------------:
 *Symptom Checker* | *Risk Factors Assessment*
 
