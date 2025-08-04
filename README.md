@@ -17,6 +17,31 @@ UK NutriHealth AI is a comprehensive health assessment platform that identifies 
 - **6%** of adults are B12 deficient
 - **£300-800** average NHS treatment cost per deficiency case
 
+## 🚀 Live Demo
+
+**[🔗 View Live Demo →](https://beamish-kashata-836ad2.netlify.app/)**
+
+Experience the full functionality of UK NutriHealth AI with our interactive demo. Complete the 4-step assessment and receive your personalized health risk analysis.
+
+## 📱 Demo Screenshots
+
+### Landing Page & Introduction
+![Landing Page](demo/intro.png)
+*Professional NHS-style interface with clear value proposition*
+
+### Assessment Results Dashboard
+![Results Dashboard](demo/result.png)
+*Comprehensive risk analysis with traffic light system*
+
+### Step-by-Step Assessment Flow
+![Assessment Step 1](demo/step1.png) | ![Assessment Step 2](demo/step2.png)
+:-------------------------:|:-------------------------:
+*Demographics Collection* | *Lifestyle Analysis*
+
+![Assessment Step 3](demo/step3.png) | ![Assessment Step 4](demo/step4.png)
+:-------------------------:|:-------------------------:
+*Symptom Checker* | *Risk Factors Assessment*
+
 ## ✨ Features
 
 ### 🎯 Core Functionality
@@ -38,9 +63,59 @@ UK NutriHealth AI is a comprehensive health assessment platform that identifies 
 - **Progress Tracking** - Save and monitor health improvements
 - **Interactive Visualizations** - Risk comparisons and health scores
 
-## 🚀 Live Demo
+## 🏗️ System Architecture
 
-**[View Live Demo →](https://uk-nutrihealth-ai.netlify.app)**
+The UK NutriHealth AI platform follows a modern, scalable architecture designed for healthcare applications:
+
+### Frontend Architecture
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    UK NutriHealth AI Frontend                   │
+├─────────────────────────────────────────────────────────────────┤
+│  React 18 + TypeScript + Tailwind CSS + Vite                   │
+│                                                                 │
+│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐ │
+│  │  Landing Page   │  │   Assessment    │  │     Results     │ │
+│  │   Component     │  │    Flow (4      │  │   Dashboard     │ │
+│  │                 │  │     Steps)      │  │                 │ │
+│  └─────────────────┘  └─────────────────┘  └─────────────────┘ │
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────────┐ │
+│  │           Risk Assessment Engine (Client-Side)             │ │
+│  │  - Vitamin D Risk Calculator                               │ │
+│  │  - Iron Deficiency Analysis                                │ │
+│  │  - B12 Deficiency Assessment                               │ │
+│  │  - Calcium Risk Evaluation                                 │ │
+│  └─────────────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Project Structure
+```
+uk-nutrihealth-ai/
+├── demo/                    # Demo screenshots and assets
+│   ├── intro.png           # Landing page screenshot
+│   ├── result.png          # Results dashboard
+│   ├── step1.png           # Assessment step 1
+│   ├── step2.png           # Assessment step 2
+│   ├── step3.png           # Assessment step 3
+│   └── step4.png           # Assessment step 4
+├── src/
+│   ├── components/         # React components
+│   │   ├── LandingPage.tsx # Hero section and features
+│   │   ├── Assessment.tsx  # 4-step assessment flow
+│   │   └── Results.tsx     # Results dashboard
+│   ├── data/              # Health data and statistics
+│   │   └── healthData.ts  # UK health conditions and symptoms
+│   ├── types/             # TypeScript definitions
+│   │   └── index.ts       # Core type definitions
+│   ├── utils/             # Utility functions
+│   │   └── riskCalculator.ts # Risk assessment algorithms
+│   └── App.tsx            # Main application component
+├── README.md              # Project documentation
+├── package.json           # Dependencies and scripts
+└── vite.config.ts         # Build configuration
+```
 
 ## 🛠️ Technology Stack
 
@@ -111,23 +186,6 @@ const calculateRiskAssessment = (profile: UserProfile): RiskAssessment => {
 - **Body**: Inter (Regular, 400-500 weight)
 - **Code**: JetBrains Mono
 
-## 🏗️ Project Structure
-
-```
-src/
-├── components/          # React components
-│   ├── LandingPage.tsx  # Hero section and features
-│   ├── Assessment.tsx   # 4-step assessment flow
-│   └── Results.tsx      # Results dashboard
-├── data/               # Health data and statistics
-│   └── healthData.ts   # UK health conditions and symptoms
-├── types/              # TypeScript definitions
-│   └── index.ts        # Core type definitions
-├── utils/              # Utility functions
-│   └── riskCalculator.ts # Risk assessment algorithms
-└── App.tsx             # Main application component
-```
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -138,8 +196,8 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/uk-nutrihealth-ai.git
-   cd uk-nutrihealth-ai
+   git clone https://github.com/shivas1432/UK-NutriHealth-AI.git
+   cd UK-NutriHealth-AI
    ```
 
 2. **Install dependencies**
@@ -201,9 +259,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/uk-nutrihealth-ai/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/uk-nutrihealth-ai/discussions)
-- **Email**: support@nutrihealth-ai.com
+- **Issues**: [GitHub Issues](https://github.com/shivas1432/UK-NutriHealth-AI/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/shivas1432/UK-NutriHealth-AI/discussions)
+- **Demo**: [Live Application](https://beamish-kashata-836ad2.netlify.app/)
 
 ## 🙏 Acknowledgments
 
@@ -218,6 +276,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ❤️ for better health outcomes in the UK**
 
-[Live Demo](https://uk-nutrihealth-ai.netlify.app) • [Documentation](https://github.com/yourusername/uk-nutrihealth-ai/wiki) • [Report Bug](https://github.com/yourusername/uk-nutrihealth-ai/issues)
+[Live Demo](https://beamish-kashata-836ad2.netlify.app/) • [Documentation](https://github.com/shivas1432/UK-NutriHealth-AI/wiki) • [Report Bug](https://github.com/shivas1432/UK-NutriHealth-AI/issues)
 
 </div>
